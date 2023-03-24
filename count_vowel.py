@@ -3,4 +3,4 @@ def count_vowel(string):
     for char in string.lower():
         if char in "aeiou":
             counter += 1
-    print(counter)
+    return counter
